@@ -1,0 +1,371 @@
+body {
+	background-color: #fbfbfb; 
+}
+#body-index, #body-portfolio, #about, #box4, #box5 {
+	border-radius: 5px;
+	background-color: #ffffff;
+	box-shadow: 20px 20px 60px #cccccc, -20px -20px 60px #ffffff;
+}
+#welcome, header, main .row .main, #social-icons, #model {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/miandrs/background.png");
+}
+#logo {
+	font-family: Baby Kruffy;
+	color: white;
+	font-size: 22px;
+}
+#model {
+	color: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+	padding-left: 0em;
+}
+#model-index {
+	background: url("../images/miandrs/model-index.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 29em;
+}
+#welcome, #model, header { 
+	background-color: lightblue;
+}
+#welcome, #model {
+	height: 28em;
+}
+#welcome h3, #name, #model-index h3 {
+	text-align: right;
+	padding-right: 3em;
+}
+#welcome, #model-index {
+	font-family: myriad pro regular;
+}
+#welcome h3, #name, #model-index h3, #accueil, #contact, #portfolio, div[class|="main"], a, #cv {
+	color: white;
+}
+#accueil, #contact, #portfolio {
+	font-weight: bold;
+}
+#accueil:hover, #contact:hover, #portfolio:hover {
+	font-size: 17px;
+	text-decoration: underline;
+}
+#cv {
+	background-color: #0b0b0b;
+	color: #ffffff; 
+}
+#hire {
+	color: #000000;
+	font-weight: bold;
+}
+#cv, #hire {
+	margin-bottom: 1em;
+	margin-right: 2em;
+	border: 1px solid #0b0b0b;
+}
+.project {
+	margin-top: 1em;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 5px #0b0b0b, -0px -0px 2px #ffffff;
+}
+.project:hover {
+	box-shadow: 0px 0px 10px blue, -0px -0px 2px #ffffff;
+}
+#cv:active, #logo:active, #hire:active, #contact-me:active, .project:active {
+	transform: scale(1.1);
+}
+#name {
+	font-family: calibri;
+	font-weight: bold;
+	padding-top: 7em;
+}
+#title-about {
+	font-weight: bold;
+	padding-left: 1em; 
+}
+#about {
+	background-color: #fbfbfb;
+	height: 13em;
+	padding: 1em;
+}
+#loadMore a {
+    background: #000000;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#box #loadMore {
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+#box #loadMore a {
+	background: #0275d8;
+}
+#hire:hover {
+	background: #ffffff;
+}
+#plus-info {
+	padding-left: 2em;
+}
+#about .row .col-lg-8 h5 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#contact-me {
+	margin-top: 1em;
+	background: #ffffff;
+	font-weight: bold; 
+}
+#contact-me:hover {
+	border: 2px solid lightblue;
+	background: lightgray;
+}
+#loadMore a:hover, #cv:hover , #box #loadMore a:hover{
+    background-color: #042a63;
+    text-decoration: none;
+}
+div[class|="main"] {
+	background-color: gray;
+	border: 1px solid white;
+}
+div[class|="main"] {
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.main-1 {
+	margin-top: -2em;
+	margin-left: 1em;
+}
+.main-2 {
+	margin-top: -9em;
+	margin-left: 33em;
+	height: 9em;
+}
+.main-2, #infomain { 
+	padding-left: 3em;
+}
+table[id|="infomain"] {
+	color: #ffffff;
+} 
+.main-1, .main-2 {
+	padding-right: 3em;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 10px lightblue, -0px -0px 2px #ffffff;
+}
+#social-icons {
+	position: fixed;
+	top: 45%;
+	margin-left: 88%;
+	padding: 0.5em;
+	border-radius: 0.4em;
+}
+#social-icons a:hover {
+	color: #0b0b0b;
+}
+#service {
+	margin-top: 3em;
+	margin-bottom: 2em;
+	margin-left: 1em;
+	font-weight: bold;
+}
+#box1, #box2, #box3, #bottom-section {
+	padding: 2em;
+	background-color: #0b0b0b;
+	color: #ffffff; 
+}
+#box1, #box2, #box3 {
+	height: 22em;
+}
+#box2, #box3{
+	margin-left: 4.16%;
+	text-align: left;
+}
+#box1 h4, #box2 h4, #box3 h4 {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 50%;
+	width: 1.3em;
+}
+#box3 h5 {
+	text-align: center;
+}
+#box4, #box5 {
+	margin-top: 3em; 
+	height: 25em;
+}
+#box4 {
+	padding-top: 1em;
+	padding-left: 3em;
+	padding-right: 1em;
+	margin-left: 1em;
+}
+#box5 {
+	padding-top: 1em;
+	text-align: right;
+	background-color: #ffffff;
+	margin-left: 1em;
+}
+#box5 p {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+} 
+#bottom-section {
+	margin-top: 3em;
+	padding-top: 3em;
+	padding-bottom: 2.5em;
+	text-decoration: underline;
+	text-align: center;
+}
+/*Modification de l'hauteur du carousel*/
+.carousel .carousel-item {
+	height: 14em;
+}
+.carousel-item .img{
+	position: absolute;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	min-height: 14em;
+}
+#footer-social-icons {
+	margin-left: 1%;
+}
+#footer-social-icons #cemail, #footer-social-icons #fb, #footer-social-icons #github {
+	display: inline-block;
+	background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url("../images/miandrs/background.png");
+	padding-top: 0.45em;
+	border: 1px solid white;
+	width: 2.6em;
+	height: 2.6em;
+	border-radius: 60%;
+}
+#footer-social-icons #cemail:hover, #footer-social-icons #fb:hover, #footer-social-icons #github:hover {
+	background: #ffffff;
+	border: 1px solid #0b0b0b;
+}
+.contact, .school {
+	color: #000000;
+}
+#foot-index {
+	padding-top: 0;
+	position: relative;
+}
+footer {
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+@media screen and (max-width: 1000px) {
+	#model-index {
+		height: 34em;
+	}
+	#model-index h3, #name {
+		padding-right: 2em;
+	}
+	#about {
+		padding: 2em;
+		height: 26em;
+	}
+}
+@media screen and (min-width: 920px) {
+	#model-index {
+		height: 33em;
+	}
+	#model-index h3, #name {
+		padding-right: 3em;
+	}
+}
+@media screen and (max-width: 1440px) {
+	#social-icons {
+		margin-left: 85%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	#social-icons {
+		margin-left: 90.5%;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.main-2 {
+		margin-left: 28em;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.main-2 {
+		margin-left: 28em;
+	}
+}
+@media screen and (max-width: 991px) {
+	.main-1 {
+		margin-left: 0;
+	}
+	.main-2 {
+		margin-top: 2em;
+		margin-left: 0;
+		height: 9em;
+	}
+	#name {
+		padding-top: 1em;
+	}
+	#model-index #name {
+		font-size: 29px;
+		padding-top: 7em;
+		padding-right: 0.1em;
+	}
+	#model-index h3 {
+		font-size: 23px;
+		padding-right: 0.1em;
+	}
+	#loadMore {
+		padding-top: 1em;
+	}
+	#welcome {
+		height: 18em;
+	}
+	#box2, #box3{
+		margin-top: 2em;
+		margin-left: 0;
+	}
+	#box4 {
+		display: none;
+	}
+	#box5 {
+		padding-top: 1em;
+		text-align: center;
+		height: 55em;
+		margin-left: 0;
+	}
+	#box5 p {
+		display: block;
+		font-size: 12px;
+		font-weight: bold;
+	} 
+	.project {
+		margin-top: 0;
+		box-shadow: 0px 0px 2px #0b0b0b, -0px -0px 1px #ffffff;
+	}
+}
+@media screen and (max-width: 767px) {
+	#box5 {
+		padding-top: 1em;
+		text-align: center;
+		height: 44em;
+		margin-left: 0;
+	}
+	#model-index {
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/miandrs/background.png");
+		background-color: lightblue;
+		height: 18em;
+	}
+	#model-index #name {
+		padding-top: 2em;
+	}
+	#model-index h3, #model-index #name {
+		padding-right: 2em;
+	}
+}
